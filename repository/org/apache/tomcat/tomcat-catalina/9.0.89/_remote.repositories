@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Aug 03 15:21:59 GMT 2024
+tomcat-catalina-9.0.89-sources.jar>gradle-plugins=
+tomcat-catalina-9.0.89.jar>central=
+tomcat-catalina-9.0.89.pom>central=

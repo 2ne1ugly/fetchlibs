@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Aug 03 15:24:06 GMT 2024
+bcprov-jdk18on-1.77.jar>gradle-plugins=
+bcprov-jdk18on-1.77-sources.jar>gradle-plugins=
+bcprov-jdk18on-1.77.pom>gradle-plugins=

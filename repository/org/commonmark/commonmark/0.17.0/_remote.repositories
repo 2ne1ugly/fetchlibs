@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Aug 03 15:21:13 GMT 2024
+commonmark-0.17.0-sources.jar>gradle-plugins=
+commonmark-0.17.0.jar>central=
+commonmark-0.17.0.pom>central=

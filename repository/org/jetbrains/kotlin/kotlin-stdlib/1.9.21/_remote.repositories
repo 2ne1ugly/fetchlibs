@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Aug 03 15:22:46 GMT 2024
+kotlin-stdlib-1.9.21-sources.jar>gradle-plugins=
+kotlin-stdlib-1.9.21.pom>gradle-plugins=
+kotlin-stdlib-1.9.21.jar>gradle-plugins=

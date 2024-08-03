@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Aug 03 15:23:50 GMT 2024
+commons-configuration-1.10-sources.jar>gradle-plugins=
+commons-configuration-1.10.pom>gradle-plugins=
+commons-configuration-1.10.jar>gradle-plugins=

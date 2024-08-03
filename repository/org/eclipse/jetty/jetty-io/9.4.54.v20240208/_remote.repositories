@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Aug 03 15:19:31 GMT 2024
+jetty-io-9.4.54.v20240208.jar>central=
+jetty-io-9.4.54.v20240208.pom>central=
+jetty-io-9.4.54.v20240208-sources.jar>gradle-plugins=

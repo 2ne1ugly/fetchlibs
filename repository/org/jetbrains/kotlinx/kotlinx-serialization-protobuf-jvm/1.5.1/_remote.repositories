@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Aug 03 15:23:08 GMT 2024
+kotlinx-serialization-protobuf-jvm-1.5.1.pom>gradle-plugins=
+kotlinx-serialization-protobuf-jvm-1.5.1.jar>gradle-plugins=
+kotlinx-serialization-protobuf-jvm-1.5.1-sources.jar>gradle-plugins=

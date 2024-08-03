@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Aug 03 15:20:20 GMT 2024
+validation-api-1.1.0.Final.pom>central=
+validation-api-1.1.0.Final.jar>central=
+validation-api-1.1.0.Final-sources.jar>gradle-plugins=

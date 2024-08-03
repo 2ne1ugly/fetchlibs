@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Aug 03 15:19:29 GMT 2024
+javax.servlet-api-3.1.0-sources.jar>gradle-plugins=
+javax.servlet-api-3.1.0.pom>gradle-plugins=
+javax.servlet-api-3.1.0.jar>gradle-plugins=

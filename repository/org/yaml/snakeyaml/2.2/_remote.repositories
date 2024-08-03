@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Aug 03 15:21:37 GMT 2024
+snakeyaml-2.2.jar>central=
+snakeyaml-2.2-sources.jar>gradle-plugins=
+snakeyaml-2.2.pom>central=

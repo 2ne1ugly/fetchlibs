@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Aug 03 15:20:11 GMT 2024
+LatencyUtils-2.0.3.jar>central=
+LatencyUtils-2.0.3-sources.jar>gradle-plugins=
+LatencyUtils-2.0.3.pom>central=

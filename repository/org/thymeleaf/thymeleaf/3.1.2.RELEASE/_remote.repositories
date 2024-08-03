@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Aug 03 15:21:48 GMT 2024
+thymeleaf-3.1.2.RELEASE.pom>central=
+thymeleaf-3.1.2.RELEASE-sources.jar>gradle-plugins=
+thymeleaf-3.1.2.RELEASE.jar>central=

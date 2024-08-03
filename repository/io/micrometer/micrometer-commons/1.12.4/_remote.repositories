@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Aug 03 15:20:08 GMT 2024
+micrometer-commons-1.12.4.pom>central=
+micrometer-commons-1.12.4.jar>central=
+micrometer-commons-1.12.4-sources.jar>gradle-plugins=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Aug 03 15:24:08 GMT 2024
+spring-boot-loader-tools-2.6.3-sources.jar>gradle-plugins=
+spring-boot-loader-tools-2.6.3.pom>gradle-plugins=
+spring-boot-loader-tools-2.6.3.jar>gradle-plugins=

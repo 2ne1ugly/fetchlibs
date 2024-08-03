@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Aug 03 15:21:54 GMT 2024
+ktor-server-tomcat-jvm-2.3.12-sources.jar>gradle-plugins=
+ktor-server-tomcat-jvm-2.3.12.pom>central=
+ktor-server-tomcat-jvm-2.3.12.jar>central=
