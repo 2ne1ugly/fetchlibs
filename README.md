@@ -27,7 +27,7 @@
 2. https://github.com/provectus/kafka-ui/blob/master/LICENSE / Apache 2.0
 3. https://hub.docker.com/r/provectuslabs/kafka-ui
 4. kafka 모니터링 서버(대시보드), kafka의 성능 및 부하 지표를 보여줍니다.
-5. 
+5. - 0.7.2
 
 ## rabbitMQ
 1. https://www.rabbitmq.com/
@@ -36,28 +36,31 @@
    - https://github.com/rabbitmq/rabbitmq-website/blob/main/LICENSE-MPL-2.0 / MPL 2.0
 3. https://hub.docker.com/_/rabbitmq
 4. kafka의 대안으로, 성능은 조금 떨어지나 반응성이 더 높고 더 많은 라이브러리들과 호환이 됩니다.
-5. 
+5. - 3.13.6-management    (대시보드로 모니터링 가능한 버전)
+   - 3.13.6
 
 ## prometheus
 1. https://prometheus.io/
 2. https://github.com/prometheus/prometheus/blob/main/LICENSE / Apache 2.0
 3. https://hub.docker.com/r/prom/prometheus
 4. 시스템 부하 모니터링 툴로, 서버 장애 원인을 앞서서 발견하여 예방하고 발생시 원인 파악에 도움이 됩니다.
-5. 
+5. - 2.53.1
 
-## traffik
+## traefik
 1. https://traefik.io/ 
 2. https://github.com/traefik/traefik/blob/master/LICENSE.md / MIT
 3. https://hub.docker.com/_/traefik
 4. 
-5. 
+5. - 3.1.1
 
 ## zookeeper
 1. 
 2. 
 3. 
 4. 
-5. 
+5. - 3.6
+   - 3.7
+   - 3.9.2
 
 /------------------------------/
 
