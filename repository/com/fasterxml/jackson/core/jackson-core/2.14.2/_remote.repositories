@@ -1,3 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sat Aug 03 14:37:02 GMT 2024
+#Sun Aug 04 05:40:54 GMT 2024
 jackson-core-2.14.2.pom>central=
+jackson-core-2.14.2.jar>gradle-plugins=
+jackson-core-2.14.2-sources.jar>gradle-plugins=

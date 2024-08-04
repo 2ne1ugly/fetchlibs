@@ -352,6 +352,135 @@
             <artifactId>h2</artifactId>
             <version>2.2.224</version>
         </dependency>
-
+        <dependency>
+            <groupId>io.github.nomisrev</groupId>
+            <artifactId>kotlin-kafka</artifactId>
+            <version>0.4.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.rabbitmq/amqp-client -->
+        <dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>5.21.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.database.jdbc</groupId>
+            <artifactId>ojdbc8</artifactId>
+            <version>23.5.0.24.07</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>5.1.4</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.lettuce/lettuce-core -->
+        <dependency>
+            <groupId>io.lettuce</groupId>
+            <artifactId>lettuce-core</artifactId>
+            <version>6.4.0.RELEASE</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/dev.krud/shapeshift -->
+        <dependency>
+            <groupId>dev.krud</groupId>
+            <artifactId>shapeshift</artifactId>
+            <version>0.9.0</version>
+            <scope>runtime</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/dev.krud/spring-boot-starter-shapeshift -->
+        <dependency>
+            <groupId>dev.krud</groupId>
+            <artifactId>spring-boot-starter-shapeshift</artifactId>
+            <version>0.9.0</version>
+            <scope>runtime</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.sksamuel.hoplite/hoplite-core -->
+        <dependency>
+            <groupId>com.sksamuel.hoplite</groupId>
+            <artifactId>hoplite-core</artifactId>
+            <version>2.7.5</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.sksamuel.hoplite/hoplite-yaml -->
+        <dependency>
+            <groupId>com.sksamuel.hoplite</groupId>
+            <artifactId>hoplite-yaml</artifactId>
+            <version>2.7.5</version>
+            <scope>runtime</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.sksamuel.hoplite/hoplite-toml -->
+        <dependency>
+            <groupId>com.sksamuel.hoplite</groupId>
+            <artifactId>hoplite-toml</artifactId>
+            <version>2.7.5</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.sksamuel.hoplite/hoplite-hocon -->
+        <dependency>
+            <groupId>com.sksamuel.hoplite</groupId>
+            <artifactId>hoplite-hocon</artifactId>
+            <version>2.7.5</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.sksamuel.hoplite/hoplite-hocon -->
+        <dependency>
+            <groupId>com.sksamuel.hoplite</groupId>
+            <artifactId>hoplite-json</artifactId>
+            <version>2.7.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sksamuel.hoplite</groupId>
+            <artifactId>hoplite-datetime</artifactId>
+            <version>2.7.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sksamuel.hoplite</groupId>
+            <artifactId>hoplite-javax</artifactId>
+            <version>2.7.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sksamuel.hoplite</groupId>
+            <artifactId>hoplite-hikaricp</artifactId>
+            <version>2.7.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sksamuel.hoplite</groupId>
+            <artifactId>hoplite-cronutils</artifactId>
+            <version>2.7.5</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.sksamuel.hoplite/hoplite-arrow -->
+        <dependency>
+            <groupId>com.sksamuel.hoplite</groupId>
+            <artifactId>hoplite-arrow</artifactId>
+            <version>2.7.5</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.bkbn/kompendium-core -->
+        <dependency>
+            <groupId>io.bkbn</groupId>
+            <artifactId>kompendium-core</artifactId>
+            <version>3.14.4</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.github.flaxoos</groupId>
+            <artifactId>ktor-server-kafka</artifactId>
+            <version>1.2.10</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.github.flaxoos</groupId>
+            <artifactId>ktor-server-task-scheduling-jvm</artifactId>
+            <version>1.2.10</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.github.flaxoos</groupId>
+            <artifactId>ktor-server-rate-limiting-jvm</artifactId>
+            <version>1.2.10</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.github.flaxoos</groupId>
+            <artifactId>ktor-client-circuit-breaker</artifactId>
+            <version>1.2.10</version>
+            <scope>runtime</scope>
+        </dependency>
     </dependencies>
 </project>

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Aug 04 05:40:50 GMT 2024
+antlr4-runtime-4.11.1.pom>gradle-plugins=
+antlr4-runtime-4.11.1.jar>gradle-plugins=
+antlr4-runtime-4.11.1-sources.jar>gradle-plugins=

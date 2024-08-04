@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Aug 04 05:41:09 GMT 2024
+animal-sniffer-annotations-1.21.jar>gradle-plugins=
+animal-sniffer-annotations-1.21-sources.jar>gradle-plugins=
+animal-sniffer-annotations-1.21.pom>gradle-plugins=

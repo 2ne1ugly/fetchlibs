@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Aug 04 05:24:52 GMT 2024
+spring-beans-5.3.19.jar>gradle-plugins=
+spring-beans-5.3.19-sources.jar>gradle-plugins=
+spring-beans-5.3.19.pom>gradle-plugins=

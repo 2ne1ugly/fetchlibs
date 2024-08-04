@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Aug 04 04:51:08 GMT 2024
+kotlin-kafka-0.4.0-sources.jar>gradle-plugins=
+kotlin-kafka-0.4.0.jar>gradle-plugins=
+kotlin-kafka-0.4.0.pom>gradle-plugins=
