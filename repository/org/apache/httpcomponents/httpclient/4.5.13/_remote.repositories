@@ -1,5 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sat Aug 03 15:20:53 GMT 2024
+#Sun Aug 04 05:20:43 UTC 2024
 httpclient-4.5.13.jar>central=
 httpclient-4.5.13.pom>central=
-httpclient-4.5.13-sources.jar>gradle-plugins=
