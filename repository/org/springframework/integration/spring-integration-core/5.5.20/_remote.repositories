@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Aug 04 06:55:45 GMT 2024
+spring-integration-core-5.5.20-sources.jar>gradle-plugins=
+spring-integration-core-5.5.20.jar>gradle-plugins=
+spring-integration-core-5.5.20.pom>gradle-plugins=

@@ -1,4 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Aug 04 06:07:28 UTC 2024
-zstd-jni-1.4.9-1.jar>central=
-zstd-jni-1.4.9-1.pom>central=
+#Sun Aug 04 06:55:49 GMT 2024
+zstd-jni-1.4.9-1-sources.jar>gradle-plugins=
+zstd-jni-1.4.9-1.jar>gradle-plugins=
+zstd-jni-1.4.9-1.pom>gradle-plugins=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Aug 04 06:55:43 GMT 2024
+spring-integration-kafka-5.5.20-sources.jar>gradle-plugins=
+spring-integration-kafka-5.5.20.pom>gradle-plugins=
+spring-integration-kafka-5.5.20.jar>gradle-plugins=
