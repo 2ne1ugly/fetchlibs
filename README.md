@@ -10,14 +10,14 @@
 1. https://www.busybox.net/
 2. https://www.busybox.net/license.html / GPLv2
 3. https://hub.docker.com/_/busybox
-4. 경량 linux 유틸리티 커맨드 라이브러리, 자주 사용되는 리눅스 명령어들을 제공하는 바이너리로써 도커(고성능 경량 VM) 이미지 제작에 사용합니다.
+4. 경량 linux 유틸리티 커맨드 라이브러리로, 자주 사용되는 리눅스 명령어들을 제공하는 바이너리로써 도커(고성능 경량 VM) 이미지 제작에 사용합니다.
 5. 1.36.1
 
 ## kafka
 1. https://kafka.apache.org/
 2. https://github.com/apache/kafka/blob/trunk/LICENSE / Apache 2.0
 3. https://hub.docker.com/r/bitnami/kafka
-4. 분산형 이벤트 스트리밍 플랫폼, 지연 처리 및 대기열 시스템을 통한 서버 반응성과 영속성을 위해서 사용합니다.
+4. 분산형 이벤트 스트리밍 플랫폼으로, 지연 처리 및 대기열 시스템을 통한 서버 반응성과 영속성을 위해서 사용합니다.
 5. - 2.8.1 
    - 3.5.2
    - 3.7.1
@@ -50,14 +50,14 @@
 1. https://traefik.io/ 
 2. https://github.com/traefik/traefik/blob/master/LICENSE.md / MIT
 3. https://hub.docker.com/_/traefik
-4. 
+4. 요청 분산과 중계(프록시)를 맡는 서버 입니다. 서버간 부하를 분산시키고 점진적 서버 버전 변경(카나리) 무중단 업데이트를 가능하게 만듭니다.
 5. - 3.1.1
 
 ## zookeeper
-1. 
-2. 
-3. 
-4. 
+1. https://zookeeper.apache.org/
+2. https://github.com/apache/zookeeper/blob/master/LICENSE.txt / Apache 2.0
+3. https://hub.docker.com/_/zookeeper
+4. Kafka를 올리기위한 클러스터 관리 서버 입니다. Kafka를 실행시키는데 필요합니다. 
 5. - 3.6
    - 3.7
    - 3.9.2
