@@ -1,3 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Aug 04 06:06:33 UTC 2024
+#Sat Aug 03 15:20:47 GMT 2024
 msg-simple-1.2.pom>central=
+msg-simple-1.2-sources.jar>gradle-plugins=
+msg-simple-1.2.jar>central=

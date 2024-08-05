@@ -1,3 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Aug 04 06:06:31 UTC 2024
+#Sat Aug 03 15:20:01 GMT 2024
 metrics-core-4.2.26.pom>central=
+metrics-core-4.2.26.jar>central=
+metrics-core-4.2.26-sources.jar>gradle-plugins=

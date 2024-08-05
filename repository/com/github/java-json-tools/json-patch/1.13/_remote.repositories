@@ -1,3 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Aug 04 06:06:33 UTC 2024
+#Sat Aug 03 15:20:46 GMT 2024
 json-patch-1.13.pom>central=
+json-patch-1.13.jar>central=
+json-patch-1.13-sources.jar>gradle-plugins=

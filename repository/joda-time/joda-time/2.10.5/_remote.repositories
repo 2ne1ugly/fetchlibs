@@ -1,3 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Aug 04 06:06:33 UTC 2024
+#Sat Aug 03 15:20:41 GMT 2024
 joda-time-2.10.5.pom>central=
+joda-time-2.10.5-sources.jar>gradle-plugins=
+joda-time-2.10.5.jar>central=

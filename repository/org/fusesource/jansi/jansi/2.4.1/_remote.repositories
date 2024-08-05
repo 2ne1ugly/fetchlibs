@@ -1,3 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Aug 04 06:06:28 UTC 2024
+#Sat Aug 03 15:19:44 GMT 2024
 jansi-2.4.1.pom>central=
+jansi-2.4.1-sources.jar>gradle-plugins=
+jansi-2.4.1.jar>central=

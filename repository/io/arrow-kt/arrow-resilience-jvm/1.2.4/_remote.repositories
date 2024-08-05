@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Aug 05 09:05:39 GMT 2024
+arrow-resilience-jvm-1.2.4-sources.jar>gradle-plugins=
+arrow-resilience-jvm-1.2.4.jar>gradle-plugins=
+arrow-resilience-jvm-1.2.4.pom>gradle-plugins=

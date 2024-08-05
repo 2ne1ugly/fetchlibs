@@ -1,3 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Aug 04 06:06:30 UTC 2024
+#Sat Aug 03 15:19:51 GMT 2024
 guava-32.1.1-jre.pom>central=
+guava-32.1.1-jre-sources.jar>gradle-plugins=
+guava-32.1.1-jre.jar>central=

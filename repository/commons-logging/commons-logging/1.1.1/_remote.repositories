@@ -1,4 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Aug 04 05:51:31 UTC 2024
-commons-logging-1.1.1.jar>central=
-commons-logging-1.1.1.pom>central=
+#Sat Aug 03 15:23:54 GMT 2024
+commons-logging-1.1.1.jar>gradle-plugins=
+commons-logging-1.1.1.pom>gradle-plugins=
+commons-logging-1.1.1-sources.jar>gradle-plugins=

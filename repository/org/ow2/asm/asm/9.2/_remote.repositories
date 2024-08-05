@@ -1,4 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Aug 04 05:20:43 UTC 2024
-asm-9.2.jar>central=
-asm-9.2.pom>central=
+#Sat Aug 03 14:42:39 GMT 2024
+asm-9.2.jar>gradle-plugins=
+asm-9.2.pom>gradle-plugins=

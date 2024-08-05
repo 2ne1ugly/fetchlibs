@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Aug 04 06:07:54 UTC 2024
-HdrHistogram-2.1.12.pom>central=
+#Sat Aug 03 15:20:11 GMT 2024
 HdrHistogram-2.1.12.jar>central=
-HdrHistogram-2.1.12-sources.jar>central=
+HdrHistogram-2.1.12.pom>central=
+HdrHistogram-2.1.12-sources.jar>gradle-plugins=

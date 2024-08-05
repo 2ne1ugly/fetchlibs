@@ -1,3 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Aug 04 06:06:21 UTC 2024
+#Sat Aug 03 15:19:10 GMT 2024
 ktor-websockets-jvm-2.3.12.pom>central=
+ktor-websockets-jvm-2.3.12-sources.jar>gradle-plugins=
+ktor-websockets-jvm-2.3.12.jar>central=

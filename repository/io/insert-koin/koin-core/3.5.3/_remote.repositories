@@ -1,3 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Aug 04 06:06:50 UTC 2024
-koin-core-3.5.3.pom>central=
+#Sat Aug 03 15:23:17 GMT 2024
+koin-core-3.5.3.pom>gradle-plugins=
+koin-core-3.5.3.jar>gradle-plugins=
+koin-core-3.5.3-sources.jar>gradle-plugins=

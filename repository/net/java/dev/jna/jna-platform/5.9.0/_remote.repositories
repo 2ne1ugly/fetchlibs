@@ -1,3 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Aug 04 06:06:43 UTC 2024
-jna-platform-5.9.0.pom>central=
+#Sun Aug 04 04:47:58 GMT 2024
+jna-platform-5.9.0-sources.jar>gradle-plugins=
+jna-platform-5.9.0.pom>gradle-plugins=
+jna-platform-5.9.0.jar>gradle-plugins=

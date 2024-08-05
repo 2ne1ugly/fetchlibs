@@ -1,3 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Aug 04 06:06:37 UTC 2024
+#Sat Aug 03 15:21:44 GMT 2024
+ktor-server-swagger-jvm-2.3.12.jar>central=
+ktor-server-swagger-jvm-2.3.12-sources.jar>gradle-plugins=
 ktor-server-swagger-jvm-2.3.12.pom>central=
