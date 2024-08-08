@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Aug 08 11:25:50 GMT 2024
+graalvm-reachability-metadata-0.9.25.jar>central=
+graalvm-reachability-metadata-0.9.25-sources.jar>central=
+graalvm-reachability-metadata-0.9.25.pom>central=
