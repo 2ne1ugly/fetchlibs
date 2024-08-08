@@ -1,0 +1,15 @@
+{
+  "name": "fetchlibs",
+  "version": "1.0.0",
+  "description": "1. SW 홈페이지 2. 라이선스 3. docker repo 4. 용도  5. 버전 / 출시일자 / sha256",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openapitools/openapi-generator-cli": "^2.13.4"
+  }
+}
