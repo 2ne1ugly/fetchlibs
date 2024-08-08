@@ -1,5 +1,0 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Aug 04 06:59:30 GMT 2024
-kafka-clients-3.5.2.jar>gradle-plugins=
-kafka-clients-3.5.2.pom>gradle-plugins=
-kafka-clients-3.5.2-sources.jar>gradle-plugins=

@@ -1,3 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sat Aug 03 15:15:46 GMT 2024
-ktor-http-cio-jvm-3.0.0-beta-2.pom>gradle-plugins=
+#Thu Aug 08 09:10:11 GMT 2024
+ktor-http-cio-jvm-3.0.0-beta-2.jar>central=
+ktor-http-cio-jvm-3.0.0-beta-2.pom>central=
+ktor-http-cio-jvm-3.0.0-beta-2-sources.jar>central=

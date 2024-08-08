@@ -1,5 +1,0 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Aug 04 06:58:39 GMT 2024
-spring-kafka-2.9.13-sources.jar>gradle-plugins=
-spring-kafka-2.9.13.jar>gradle-plugins=
-spring-kafka-2.9.13.pom>gradle-plugins=

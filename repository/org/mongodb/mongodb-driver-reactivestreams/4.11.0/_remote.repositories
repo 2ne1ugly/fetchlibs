@@ -1,5 +1,0 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Aug 04 05:52:13 GMT 2024
-mongodb-driver-reactivestreams-4.11.0.jar>gradle-plugins=
-mongodb-driver-reactivestreams-4.11.0-sources.jar>gradle-plugins=
-mongodb-driver-reactivestreams-4.11.0.pom>gradle-plugins=

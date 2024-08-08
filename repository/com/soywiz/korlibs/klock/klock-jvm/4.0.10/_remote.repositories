@@ -1,5 +1,0 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Aug 04 05:51:56 GMT 2024
-klock-jvm-4.0.10.jar>gradle-plugins=
-klock-jvm-4.0.10-sources.jar>gradle-plugins=
-klock-jvm-4.0.10.pom>gradle-plugins=

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>io.github.uuverifiers</groupId>
+    <artifactId>princess-smt-parser_2.13</artifactId>
+    <packaging>jar</packaging>
+    <description>Princess is a theorem prover (aka SMT Solver) for Presburger arithmetic, uninterpreted predicates, and various other theories.</description>
+    <url>https://philipp.ruemmer.org/princess.shtml</url>
+    <version>2021-11-15</version>
+    <licenses>
+        <license>
+            <name>BSD-3-Clause</name>
+            <url>https://opensource.org/licenses/BSD-3-Clause</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>Princess-smt-parser</name>
+    <organization>
+        <name>io.github.uuverifiers</name>
+        <url>https://philipp.ruemmer.org/princess.shtml</url>
+    </organization>
+    <scm>
+        <url>https://github.com/uuverifiers/princess</url>
+        <connection>scm:git@github.com/uuverifiers/princess.git</connection>
+    </scm>
+    <developers>
+        <developer>
+            <id>p_ruemmer</id>
+            <name>Philipp Ruemmer</name>
+            <url>https://philipp.ruemmer.org</url>
+            <email>ph_r@gmx.net</email>
+        </developer>
+        <developer>
+            <id>zafer.esen</id>
+            <name>Zafer Esen</name>
+            <url>https://katalog.uu.se/empinfo/?id=N18-2424</url>
+            <email>zafer.esen@it.uu.se</email>
+        </developer>
+        <developer>
+            <id>angelo.brillout</id>
+            <name>Angelo Brillout</name>
+            <url>https://ch.linkedin.com/in/angelo-brillout-2942bb7</url>
+            <email>angelo.brillout@gmail.com</email>
+        </developer>
+        <developer>
+            <id>peter.backeman</id>
+            <name>Peter Backeman</name>
+            <url>http://www.es.mdh.se/staff/4393-Peter__Backeman</url>
+            <email>peter@backeman.se</email>
+        </developer>
+        <developer>
+            <id>peter.baumgartner</id>
+            <name>Peter Baumgartner</name>
+            <url>http://users.cecs.anu.edu.au/~baumgart/</url>
+            <email>Peter.Baumgartner@data61.csiro.au</email>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.13.4</version>
+        </dependency>
+    </dependencies>
+</project>

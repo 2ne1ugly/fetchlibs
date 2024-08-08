@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dev.forst</groupId>
+  <artifactId>ktor-openapi-generator</artifactId>
+  <version>0.6.1</version>
+  <name>Ktor OpenAPI/Swagger 3 Generator</name>
+  <description>The Ktor OpenAPI Generator is a library to automatically generate the descriptor as you route your ktor application.</description>
+  <url>https://github.com/LukasForst/ktor-openapi-generator</url>
+  <licenses>
+    <license>
+      <name>Apache-2.0 License</name>
+      <url>https://github.com/LukasForst/ktor-openapi-generator/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>wicpar</id>
+      <name>Frédéric Nieto</name>
+    </developer>
+    <developer>
+      <id>lukasforst</id>
+      <name>Lukas Forst</name>
+      <email>lukas@forst.dev</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/LukasForst/ktor-openapi-generator.git</connection>
+    <url>https://github.com/LukasForst/ktor-openapi-generator</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.8.10</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.ktor</groupId>
+      <artifactId>ktor-server-core-jvm</artifactId>
+      <version>2.2.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.ktor</groupId>
+      <artifactId>ktor-server-auth-jvm</artifactId>
+      <version>2.2.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.ktor</groupId>
+      <artifactId>ktor-serialization-jackson-jvm</artifactId>
+      <version>2.2.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.ktor</groupId>
+      <artifactId>ktor-server-content-negotiation-jvm</artifactId>
+      <version>2.2.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.ktor</groupId>
+      <artifactId>ktor-server-status-pages-jvm</artifactId>
+      <version>2.2.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>2.0.6</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.datatype</groupId>
+      <artifactId>jackson-datatype-jsr310</artifactId>
+      <version>2.14.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>swagger-ui</artifactId>
+      <version>4.15.5</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.reflections</groupId>
+      <artifactId>reflections</artifactId>
+      <version>0.10.2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

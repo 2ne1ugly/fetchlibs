@@ -1,5 +1,0 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Aug 04 04:48:01 GMT 2024
-byte-buddy-agent-1.10.9.jar>gradle-plugins=
-byte-buddy-agent-1.10.9.pom>gradle-plugins=
-byte-buddy-agent-1.10.9-sources.jar>gradle-plugins=

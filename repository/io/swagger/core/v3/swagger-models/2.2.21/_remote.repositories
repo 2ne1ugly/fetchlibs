@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sat Aug 03 15:21:22 GMT 2024
+#Thu Aug 08 09:10:20 GMT 2024
 swagger-models-2.2.21.jar>central=
-swagger-models-2.2.21-sources.jar>gradle-plugins=
 swagger-models-2.2.21.pom>central=
+swagger-models-2.2.21-sources.jar>central=

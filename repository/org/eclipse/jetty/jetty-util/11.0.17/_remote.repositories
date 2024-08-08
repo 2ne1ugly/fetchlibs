@@ -1,3 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sat Aug 03 15:16:06 GMT 2024
-jetty-util-11.0.17.pom>gradle-plugins=
+#Thu Aug 08 09:10:08 GMT 2024
+jetty-util-11.0.17.jar>central=
+jetty-util-11.0.17.pom>central=
+jetty-util-11.0.17-sources.jar>central=

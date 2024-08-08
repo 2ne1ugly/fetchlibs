@@ -1,0 +1,97 @@
+<!--
+This file is part of SoSy-Lab Common,
+a library of useful utilities:
+https://github.com/sosy-lab/java-common-lib
+
+SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+
+SPDX-License-Identifier: Apache-2.0
+-->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.sosy-lab</groupId>
+    <artifactId>common</artifactId>
+    <packaging>jar</packaging>
+    <version>0.3000-502-gb581f5d</version>
+    <name>java-common-lib</name>
+    <description>Library of common components for SoSy-Lab Projects</description>
+    <url>https://github.com/sosy-lab/java-common-lib</url>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>Software Systems Lab</name>
+        <url>https://www.sosy-lab.org/</url>
+    </organization>
+
+    <scm>
+        <url>https://github.com/sosy-lab/java-common-lib/</url>
+        <connection>scm:git:git://github.com/sosy-lab/java-common-lib.git</connection>
+        <developerConnection>scm:git:git@github.com:sosy-lab/java-common-lib.git</developerConnection>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>Philipp Wendler</name>
+            <email>uni@philippwendler.de</email>
+            <organization>Software Systems Lab</organization>
+            <url>https://www.sosy-lab.org/people/wendler/</url>
+            <roles>
+                <role>project maintainer</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Karlheinz Friedberger</name>
+            <email>kfriedberger@gmail.com</email>
+            <organization>Software Systems Lab</organization>
+            <url>https://www.sosy-lab.org/people/friedberger/</url>
+            <roles>
+                <role>project maintainer</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Dirk Beyer</name>
+            <email>dirk.beyer@sosy-lab.org</email>
+            <url>https://www.sosy-lab.org/people/beyer/</url>
+            <organization>Software Systems Lab</organization>
+            <organizationUrl>http://www.sosy-lab.org/</organizationUrl>
+            <roles>
+                <role>project manager</role>
+            </roles>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>30.1.1-jre</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.checkerframework</groupId>
+            <artifactId>checker-qual</artifactId>
+            <version>3.7.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.spotbugs</groupId>
+            <artifactId>spotbugs-annotations</artifactId>
+            <version>4.2.3</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
+            <version>3.0.2</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+</project>
