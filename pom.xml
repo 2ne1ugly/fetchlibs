@@ -16,505 +16,106 @@
     
     <dependencies>
         <dependency>
-            <groupId>org.ow2.asm</groupId>
-            <artifactId>asm</artifactId>
-            <version>9.5</version>
-        </dependency>
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.15.2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-annotations</artifactId>
-            <version>2.15.2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-core</artifactId>
-            <version>2.15.2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>2.9.0</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/com.google.devtools.ksp/com.google.devtools.ksp.gradle.plugin -->
-        <dependency>
-            <groupId>com.google.devtools.ksp</groupId>
-            <artifactId>com.google.devtools.ksp.gradle.plugin</artifactId>
-            <version>2.0.0-1.0.24</version>
-            <type>pom</type>
-        </dependency>
-
-        <dependency>
-            <groupId>com.google.devtools.ksp</groupId>
-            <artifactId>symbol-processing-gradle-plugin</artifactId>
-            <version>2.0.0-1.0.24</version>
-        </dependency>
-        <dependency>
-            <groupId>io.arrow-kt</groupId>
-            <artifactId>arrow-analysis-kotlin-gradle-plugin</artifactId>
-            <version>2.0.2</version>
-            </dependency>
-                    <!-- https://mvnrepository.com/artifact/io.arrow-kt.analysis.kotlin/io.arrow-kt.analysis.kotlin.gradle.plugin -->
-            <dependency>
-                <groupId>io.arrow-kt.analysis.kotlin</groupId>
-                <artifactId>io.arrow-kt.analysis.kotlin.gradle.plugin</artifactId>
-                <version>2.0.2</version>
-                <type>pom</type>
-            </dependency>
-
-
-        <dependency>
-            <groupId>org.eclipse.jetty</groupId>
-            <artifactId>jetty-util</artifactId>
-            <version>11.0.17</version>
-        </dependency>
-        <dependency>
-            <groupId>commons-io</groupId>
-            <artifactId>commons-io</artifactId>
-            <version>2.14.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>2.0.5</version>
+            <groupId>io.ktor</groupId>
+            <artifactId>ktor-server-cio-jvm</artifactId>
+            <version>2.3.1</version>
         </dependency>
         <dependency>
             <groupId>io.ktor</groupId>
-            <artifactId>ktor-client-apache5-jvm</artifactId>
+            <artifactId>ktor-server-webjars</artifactId>
             <version>2.3.12</version>
         </dependency>
         <dependency>
             <groupId>io.ktor</groupId>
-            <artifactId>ktor-events</artifactId>
-            <version>3.0.0-beta-2</version>
+            <artifactId>ktor-server-webjars-jvm</artifactId>
+            <version>2.3.12</version>
         </dependency>
         <dependency>
-            <groupId>io.ktor</groupId>
-            <artifactId>ktor-events-jvm</artifactId>
-            <version>3.0.0-beta-2</version>
-        </dependency>
-        <dependency>
-            <groupId>io.ktor</groupId>
-            <artifactId>ktor-http</artifactId>
-            <version>3.0.0-beta-2</version>
-        </dependency>
-        <dependency>
-            <groupId>io.ktor</groupId>
-            <artifactId>ktor-http-jvm</artifactId>
-            <version>3.0.0-beta-2</version>
-        </dependency>
-        <dependency>
-            <groupId>io.ktor</groupId>
-            <artifactId>ktor-http-cio</artifactId>
-            <version>3.0.0-beta-2</version>
-        </dependency>
-        <dependency>
-            <groupId>io.ktor</groupId>
-            <artifactId>ktor-http-cio-jvm</artifactId>
-            <version>3.0.0-beta-2</version>
-        </dependency>
-        <dependency>
-            <groupId>io.ktor</groupId>
-            <artifactId>ktor-io-jvm</artifactId>
-            <version>3.0.0-beta-2</version>
-        </dependency>
-        <dependency>
-            <groupId>io.ktor</groupId>
-            <artifactId>ktor-network</artifactId>
-            <version>3.0.0-beta-2</version>
-        </dependency>
-        <dependency>
-            <groupId>io.ktor</groupId>
-            <artifactId>ktor-network-jvm</artifactId>
-            <version>3.0.0-beta-2</version>
-        </dependency>
-        <dependency>
-            <groupId>io.ktor</groupId>
-            <artifactId>ktor-serialization</artifactId>
-            <version>3.0.0-beta-2</version>
-        </dependency>
-        <dependency>
-            <groupId>io.ktor</groupId>
-            <artifactId>ktor-serialization-jvm</artifactId>
-            <version>3.0.0-beta-2</version>
-        </dependency>
-        <dependency>
-            <groupId>io.ktor</groupId>
-            <artifactId>ktor-server-core</artifactId>
-            <version>3.0.0-beta-2</version>
-        </dependency>
-        <dependency>
-            <groupId>io.ktor</groupId>
-            <artifactId>ktor-server-core-jvm</artifactId>
-            <version>3.0.0-beta-2</version>
-        </dependency>
-        <dependency>
-            <groupId>io.ktor</groupId>
-            <artifactId>ktor-utils</artifactId>
-            <version>3.0.0-beta-2</version>
-        </dependency>
-        <dependency>
-            <groupId>io.ktor</groupId>
-            <artifactId>ktor-utils-jvm</artifactId>
-            <version>3.0.0-beta-2</version>
-        </dependency>
-        <dependency>
-            <groupId>io.ktor</groupId>
-            <artifactId>ktor-websockets</artifactId>
-            <version>3.0.0-beta-2</version>
-        </dependency>
-        <dependency>
-            <groupId>io.ktor</groupId>
-            <artifactId>ktor-websockets-jvm</artifactId>
-            <version>3.0.0-beta-2</version>
-        </dependency>
-        <dependency>
-            <groupId>dev.forst</groupId>
-            <artifactId>ktor-openapi-generator</artifactId>
+            <groupId>io.konform</groupId>
+            <artifactId>konform-jvm</artifactId>
             <version>0.6.1</version>
         </dependency>
         <dependency>
-            <groupId>io.github.smiley4</groupId>
-            <artifactId>ktor-swagger-ui</artifactId>
-            <version>3.2.0</version>
+            <groupId>io.konform</groupId>
+            <artifactId>konform</artifactId>
+            <version>0.6.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/commons-validator/commons-validator -->
+        <dependency>
+            <groupId>commons-validator</groupId>
+            <artifactId>commons-validator</artifactId>
+            <version>1.9.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.google.devtools.ksp/symbol-processing-api -->
+        <dependency>
+            <groupId>com.google.devtools.ksp</groupId>
+            <artifactId>symbol-processing</artifactId>
+            <version>2.0.0-1.0.24</version>
         </dependency>
         <dependency>
-            <groupId>io.github.smiley4</groupId>
-            <artifactId>schema-kenerator-core</artifactId>
-            <version>1.1.0</version>
+            <groupId>com.google.devtools.ksp</groupId>
+            <artifactId>symbol-processing-aa</artifactId>
+            <version>2.0.0-1.0.24</version>
         </dependency>
         <dependency>
-            <groupId>io.github.smiley4</groupId>
-            <artifactId>schema-kenerator-reflection</artifactId>
-            <version>1.1.0</version>
+            <groupId>com.google.devtools.ksp</groupId>
+            <artifactId>symbol-processing-cmdline</artifactId>
+            <version>2.0.0-1.0.24</version>
         </dependency>
         <dependency>
-            <groupId>io.github.smiley4</groupId>
-            <artifactId>schema-kenerator-serialization</artifactId>
-            <version>1.1.0</version>
+            <groupId>com.google.devtools.ksp</groupId>
+            <artifactId>symbol-processing-aa-embeddable</artifactId>
+            <version>2.0.0-1.0.24</version>
         </dependency>
-        <dependency>
-            <groupId>io.github.smiley4</groupId>
-            <artifactId>schema-kenerator-jsonschema</artifactId>
-            <version>1.1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>io.github.smiley4</groupId>
-            <artifactId>schema-kenerator-swagger</artifactId>
-            <version>1.1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>io.github.smiley4</groupId>
-            <artifactId>schema-kenerator-jackson</artifactId>
-            <version>1.1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.openapitools</groupId>
-            <artifactId>openapi-generator-gradle-plugin</artifactId>
-            <version>7.7.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.openapitools</groupId>
-            <artifactId>openapi-generator-cli</artifactId>
-            <version>7.7.0</version>
-        </dependency>
-        <dependency>
-            <groupId>dev.nesk.akkurate</groupId>
-            <artifactId>akkurate-core</artifactId>
-            <version>0.8.0</version>
-        </dependency>
-        <dependency>
-            <groupId>dev.nesk.akkurate</groupId>
-            <artifactId>akkurate-ksp-plugin</artifactId>
-            <version>0.8.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sksamuel.hoplite</groupId>
-            <artifactId>hoplite-core</artifactId>
-            <version>1.4.16</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sksamuel.hoplite</groupId>
-            <artifactId>hoplite-hocon</artifactId>
-            <version>1.4.16</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sksamuel.hoplite</groupId>
-            <artifactId>hoplite-json</artifactId>
-            <version>1.4.16</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sksamuel.hoplite</groupId>
-            <artifactId>hoplite-yaml</artifactId>
-            <version>1.4.16</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sksamuel.hoplite</groupId>
-            <artifactId>hoplite-toml</artifactId>
-            <version>1.4.16</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sksamuel.hoplite</groupId>
-            <artifactId>hoplite-hikaricp</artifactId>
-            <version>1.4.16</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sksamuel.hoplite</groupId>
-            <artifactId>hoplite-datetime</artifactId>
-            <version>1.4.16</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sksamuel.hoplite</groupId>
-            <artifactId>hoplite-cronutils</artifactId>
-            <version>1.4.16</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.exposed</groupId>
-            <artifactId>exposed-core</artifactId>
-            <version>0.53.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.exposed</groupId>
-            <artifactId>exposed-crypt</artifactId>
-            <version>0.53.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.exposed</groupId>
-            <artifactId>exposed-dao</artifactId>
-            <version>0.53.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.exposed</groupId>
-            <artifactId>exposed-java-time</artifactId>
-            <version>0.53.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.exposed</groupId>
-            <artifactId>exposed-jdbc</artifactId>
-            <version>0.53.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.exposed</groupId>
-            <artifactId>exposed-jodatime</artifactId>
-            <version>0.53.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.exposed</groupId>
-            <artifactId>exposed-json</artifactId>
-            <version>0.53.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.exposed</groupId>
-            <artifactId>exposed-kotlin-datetime</artifactId>
-            <version>0.53.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.exposed</groupId>
-            <artifactId>exposed-money</artifactId>
-            <version>0.53.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.exposed</groupId>
-            <artifactId>exposed-spring-boot-starter</artifactId>
-            <version>0.53.0</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/net.java.dev.jna/jna -->
-        <dependency>
-            <groupId>net.java.dev.jna</groupId>
-            <artifactId>jna</artifactId>
-            <version>5.6.0</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/avalon-framework/avalon-framework -->
-        <dependency>
-            <groupId>avalon-framework</groupId>
-            <artifactId>avalon-framework</artifactId>
-            <version>4.1.3</version>
-        </dependency>
-        <dependency>
-            <groupId>io.arrow-kt</groupId>
-            <artifactId>arrow-optics-ksp-plugin</artifactId>
-            <version>1.2.4</version>
-        </dependency>
-                <!-- https://mvnrepository.com/artifact/org.gretty/org.gretty.gradle.plugin -->
+        <!-- https://mvnrepository.com/artifact/org.gretty/gretty -->
         <dependency>
             <groupId>org.gretty</groupId>
+            <artifactId>gretty</artifactId>
+            <version>3.1.4</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.gretty/gretty -->
+        <dependency>
+            <groupId>org.gretty</groupId>
+            <artifactId>gretty-common</artifactId>
+            <version>3.1.4</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.gretty/gretty -->
+        <dependency>
+            <groupId>org.gretty</groupId>
+            <artifactId>gretty-core</artifactId>
+            <version>3.1.4</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.gretty/gretty -->
+        <dependency>
+            <groupId>org.gretty.plugin</groupId>
             <artifactId>org.gretty.gradle.plugin</artifactId>
-            <version>4.1.5</version>
+            <version>3.1.4</version>
             <type>pom</type>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.gretty/gretty -->
         <dependency>
-            <groupId>io.ktor.plugin</groupId>
-            <artifactId>io.ktor.plugin.gradle.plugin</artifactId>
-            <version>2.3.12</version>
-            <type>pom</type>
+            <groupId>org.gretty</groupId>
+            <artifactId>gretty</artifactId>
+            <version>3.1.4</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.github.smiley4/ktor-swagger-ui -->
         <dependency>
-            <groupId>io.insert-koin</groupId>
-            <artifactId>koin-annotations</artifactId>
-            <version>1.3.1</version>
+            <groupId>io.github.smiley4</groupId>
+            <artifactId>ktor-swagger-ui</artifactId>
+            <version>2.2.3</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.webjars.npm/swagger-ui-dist -->
         <dependency>
-            <groupId>io.insert-koin</groupId>
-            <artifactId>koin-annotations-jvm</artifactId>
-            <version>1.3.1</version>
+            <groupId>org.webjars.npm</groupId>
+            <artifactId>swagger-ui-dist</artifactId>
+            <version>5.17.14</version>
         </dependency>
-                <dependency>
-            <groupId>io.insert-koin</groupId>
-            <artifactId>koin-ksp-compiler</artifactId>
-            <version>1.3.1</version>
-        </dependency>
-        <dependency>
-            <groupId>io.insert-koin</groupId>
-            <artifactId>koin-ksp-compiler-jvm</artifactId>
-            <version>1.3.1</version>
-        </dependency>
-        <dependency>
-            <groupId>io.insert-koin</groupId>
-            <artifactId>koin-logger-slf4j</artifactId>
-            <version>3.5.6</version>
-        </dependency>
-        <dependency>
-            <groupId>io.swagger.codegen.v3</groupId>
-            <artifactId>swagger-codegen-generators</artifactId>
-            <version>1.0.50</version>
-        </dependency>
-                <dependency>
-            <groupId>io.github.nomisrev</groupId>
-            <artifactId>kotlin-kafka</artifactId>
-            <version>0.4.0</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/com.rabbitmq/amqp-client -->
-        <dependency>
-            <groupId>com.rabbitmq</groupId>
-            <artifactId>amqp-client</artifactId>
-            <version>5.21.0</version>
-        </dependency>
-        <dependency>
-            <groupId>redis.clients</groupId>
-            <artifactId>jedis</artifactId>
-            <version>5.1.4</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/io.lettuce/lettuce-core -->
-        <dependency>
-            <groupId>io.lettuce</groupId>
-            <artifactId>lettuce-core</artifactId>
-            <version>6.4.0.RELEASE</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/dev.krud/shapeshift -->
-        <dependency>
-            <groupId>dev.krud</groupId>
-            <artifactId>shapeshift</artifactId>
-            <version>0.9.0</version>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>io.bkbn</groupId>
-            <artifactId>kompendium-core</artifactId>
-            <version>3.14.4</version>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>io.github.flaxoos</groupId>
-            <artifactId>ktor-server-kafka</artifactId>
-            <version>1.2.10</version>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>io.github.flaxoos</groupId>
-            <artifactId>ktor-server-task-scheduling-jvm</artifactId>
-            <version>1.2.10</version>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>io.github.flaxoos</groupId>
-            <artifactId>ktor-server-rate-limiting-jvm</artifactId>
-            <version>1.2.10</version>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>io.github.flaxoos</groupId>
-            <artifactId>ktor-client-circuit-breaker</artifactId>
-            <version>1.2.10</version>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>io.github.flaxoos</groupId>
-            <artifactId>ktor-client-circuit-breaker</artifactId>
-            <version>1.2.10</version>
-            <scope>runtime</scope>
-        </dependency>
-         <dependency>
-            <groupId>io.github.crackthecodeabhi</groupId>
-            <artifactId>kreds</artifactId>
-            <version>0.9.1</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.springframework.kafka/spring-kafka -->
-        <dependency>
-            <groupId>org.springframework.kafka</groupId>
-            <artifactId>spring-kafka</artifactId>
-            <version>2.9.13</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.springframework.integration/spring-integration-kafka -->
-        <dependency>
-            <groupId>org.springframework.integration</groupId>
-            <artifactId>spring-integration-kafka</artifactId>
-            <version>5.5.20</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients -->
-        <dependency>
-            <groupId>org.apache.kafka</groupId>
-            <artifactId>kafka-clients</artifactId>
-            <version>3.7.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kotlin-serialization-compiler-plugin-embeddable</artifactId>
-            <version>2.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kotlin-assignment-compiler-plugin-embeddable</artifactId>
-            <version>2.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kotlin-allopen-compiler-plugin-embeddable</artifactId>
-            <version>2.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kotlin-sam-with-receiver-compiler-plugin-embeddable</artifactId>
-            <version>2.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kotlin-power-assert-compiler-plugin</artifactId>
-            <version>2.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kotlin-power-assert-compiler-plugin-embeddable</artifactId>
-            <version>2.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kotlin-noarg-compiler-plugin-embeddable</artifactId>
-            <version>2.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kotlin-lombok-compiler-plugin-embeddable</artifactId>
-            <version>2.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>io.github.config4k</groupId>
-            <artifactId>config4k</artifactId>
-            <version>0.7.0</version>
-        </dependency>
+
+
+
+
+
+
 
     </dependencies>
 </project>

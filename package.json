@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@openapitools/openapi-generator-cli": "^2.13.4"
+    "swagger-ui-dist": "^5.17.14"
   }
 }
