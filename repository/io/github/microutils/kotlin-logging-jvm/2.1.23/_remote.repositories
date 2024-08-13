@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Aug 13 10:42:37 GMT 2024
+kotlin-logging-jvm-2.1.23-sources.jar>central=
+kotlin-logging-jvm-2.1.23.jar>central=
+kotlin-logging-jvm-2.1.23.pom>central=
